@@ -1,0 +1,13 @@
+{
+    "name": "programmerzamannow/php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "ProgrammerZamanNow\\": "src/"
+        }
+    },
+    "require": {
+        "monolog/monolog": "2.2.0"
+    }
+}
